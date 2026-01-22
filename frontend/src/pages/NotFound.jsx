@@ -9,16 +9,13 @@ const NotFound = () => {
     <>
       <div className="mainContainer">
         <div className="notFoundImageBox">
-          <img src={warningIcon} alt="" srcset="" />
+          <img className="warningIcon" src={warningIcon} alt="" srcset="" />
         </div>
         <div className="notFoundText">
-          <p style={{ fontWeight: "bold" }}>
-            - 404 - NOT FOUND! <br />
-            <span style={{ fontWeight: "normal" }}>
-              Unfortunately, this page does not exists.
-            </span>
+          <p style={{ fontWeight: "bold" }}>- 404 - NOT FOUND! </p>
+          <p style={{ fontSize: "30px" }}>
+            Unfortunately, this page does not exists.
           </p>
-          <p style={{ fontSize: "30px" }}></p>
         </div>
       </div>
 

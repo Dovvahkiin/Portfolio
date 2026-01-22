@@ -17,16 +17,32 @@ const Contact = () => {
         </div>
         <div className="icons">
           <Link to={"https://www.linkedin.com/in/bozidartovarnicki/"}>
-            <img src={linkedInIcon} alt="linkedin" />
+            <img
+              className="contactIcons linkedin"
+              src={linkedInIcon}
+              alt="linkedin"
+            />
           </Link>
           <Link to={"https://www.instagram.com/tovarnickii.b/"}>
-            <img src={instagramIcon} alt="instagram" />
+            <img
+              className="contactIcons instagram"
+              src={instagramIcon}
+              alt="instagram"
+            />
           </Link>
           <Link to={"https://github.com/Dovvahkiin"}>
-            <img src={githubIcon} alt="github" />
+            <img
+              className="contactIcons github"
+              src={githubIcon}
+              alt="github"
+            />
           </Link>
           <Link to={"https://discord.com/users/401693178144751616"}>
-            <img src={discordIcon} alt="discord" />
+            <img
+              className="contactIcons discord"
+              src={discordIcon}
+              alt="discord"
+            />
           </Link>
         </div>
       </div>

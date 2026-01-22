@@ -21,11 +21,24 @@ body {
   justify-content: space-between;
 }
 
-img {
+.contactIcons {
   max-width: 80px;
   height: 80px;
   border-radius: 60px 60px;
 }
-img:hover {
-  box-shadow: 0px 0px 15px 15px rgb(70, 50, 31);
+.discord:hover {
+  box-shadow: 0px 0px 20px 0.8px var(--discordLogoColor);
+  transition: 0.2s ease-out;
+}
+.linkedin:hover {
+  box-shadow: 0px 0px 20px 0.8px var(--linkedinLogoColor);
+  transition: 0.2s ease-out;
+}
+.instagram:hover {
+  box-shadow: 0px 0px 20px 0.8px var(--instagramLogoColor);
+  transition: 0.2s ease-out;
+}
+.github:hover {
+  box-shadow: 0px 0px 20px 0.8px var(--githubLogoColor);
+  transition: 0.2s ease-out;
 }

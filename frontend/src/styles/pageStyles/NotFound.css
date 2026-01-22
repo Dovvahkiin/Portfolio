@@ -19,11 +19,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5%;
 }
-img {
+.notFoundImageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.warningIcon {
   margin-left: 25%;
   filter: blur(1px);
-  width: 50%;
+  width: 70%;
   margin-top: 5%;
 }
 
