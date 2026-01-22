@@ -2,10 +2,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--customBlack);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 :root {
   /* colors */
   --customBlack: #131515;
   --customOrange: #c57b57;
   --customYellow: #f7dba7;
+  --customRed: #ff5666;
 }
