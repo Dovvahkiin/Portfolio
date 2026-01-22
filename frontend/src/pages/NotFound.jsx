@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/pageStyles/NotFound.css";
-import warning from "../assets/images/icons/warning.png";
+import { warningIcon } from "../utils/icons";
 // fix this
 
 const NotFound = () => {
@@ -9,7 +9,7 @@ const NotFound = () => {
     <>
       <div className="mainContainer">
         <div className="notFoundImageBox">
-          <img src={warning} alt="" srcset="" />
+          <img src={warningIcon} alt="" srcset="" />
         </div>
         <div className="notFoundText">
           <p style={{ fontWeight: "bold" }}>

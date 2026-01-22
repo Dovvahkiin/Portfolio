@@ -1,4 +1,3 @@
-import "./styles/application.css";
 import React from "react";
 import router from "./routes/Routes";
 import { RouterProvider } from "react-router-dom";
