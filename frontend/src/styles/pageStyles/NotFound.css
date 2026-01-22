@@ -9,8 +9,7 @@ body {
   background-color: var(--customRed);
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0px 0px 200px 15px rgb(75, 10, 10);
-  border-radius: 50px;
+  box-shadow: 0px 0px 30px 15px rgb(75, 10, 10);
   width: 100vh;
   margin-top: 35vh;
 }
@@ -20,4 +19,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+img {
+  margin-left: 25%;
+  filter: blur(1px);
+  width: 50%;
+  margin-top: 5%;
+}
+
+.buttonBox {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vh;
+}
+
+.returnButton {
+  color: var(--customRed);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttonBox:hover {
+  transition: 1s ease-in-out;
+  border-bottom: 1px solid red;
 }
