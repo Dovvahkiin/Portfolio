@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFound";
 
-export const router = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
@@ -16,3 +16,4 @@ export const router = createBrowserRouter([
     element: <Contact />,
   },
 ]);
+export default router;
